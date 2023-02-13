@@ -39,7 +39,7 @@
 }
 
 .bg-primary {
-    background-color: #2b2b94 !important;
+    background-color: #4b4be4 !important;
 }
 
 .Fondo{
@@ -67,3 +67,33 @@
     width: 300px;
     height: 200px;
 }
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+header.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+  
+.symbols {
+    position: relative;
+    z-index: 2;
+}
+  
