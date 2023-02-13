@@ -8,6 +8,7 @@
     width: 300px;
     margin: 20px auto;
     font-size: larger;
+    margin-left: 29px;
 
 }
 
@@ -25,13 +26,10 @@
 }
 
 .Titulo_principal {
+    margin: 16px;
+    padding: auto;
     position: center;
-    color: #022aaf;
-    font-weight: bold;
-}
-
-#Indices_Name {
-    color: #000000;
+    color: #022081;
     font-weight: bold;
 }
 
@@ -42,4 +40,30 @@
 
 .bg-primary {
     background-color: #2b2b94 !important;
+}
+
+.Fondo{
+    background-color: rgb(182, 181, 180);
+    border-radius: 3px;
+}
+
+#Indices_Name {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.posicionar {
+    display: flex;
+    align-items: center;
+    width: 650px;
+    height: 200px;
+}
+.Imagen {
+    width: 300px;
+    height: 300px;
+}
+
+.img_Bandera{
+    width: 300px;
+    height: 200px;
 }

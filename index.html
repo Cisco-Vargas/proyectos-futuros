@@ -9,6 +9,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" href="img/icon.png">
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
   <title>Infopedia</title>
 </head>
 
@@ -39,35 +45,67 @@
   </nav>
 
 <!--El titulo PRINCIPAL WE-->
-<div class="card-header text-center">
-  <h1 class="Titulo_principal" id="Titulo_principal" class="animated fadeInDown">Los Simbolos Patrios de la Republica Dominicana</h1>
-</div>
-
-<!--Indice-->
-<div class="container my-5">
-  <div class="card bg-primary text-white">
-    <div class="card-body">
-      <h4 class="text-center">Indice:</h4>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item bg-light">
-          <a id="Indices_Name" href="BanderaN.html" class="text-primary">Bandera Nacional</a>
-        </li>
-        <li class="list-group-item bg-light">
-          <a href="Escudo.html" id="Indices_Name" class="text-primary">Escudo Nacional</a>
-        </li>
-        <li class="list-group-item bg-light">
-          <a href="HimnoN.html" id="Indices_Name" class="text-primary">Himno Nacional</a>
-        </li>
-      </ul>
+<div class="Fondo">
+  <div class="card-header">
+    <h1 class="animate__animated animate__bounce" class="Titulo_principal">Los Simbolos Patrios de la República Dominicana</h1>
+  </div> 
+  <!--Indice y Bienvenido a Infopedia-->
+  <div class="container my-2 d-flex">
+    <div class="card bg-primary text-white mr-5" style="margin-left: -99px;">
+      <div class="card-body">
+        <h4 class="text-center">Indice:</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-light">
+            <a id="Indices_Name" href="BanderaN.html" class="text-primary">Bandera Nacional</a>
+          </li>
+          <li class="list-group-item bg-light">
+            <a href="Escudo.html" id="Indices_Name" class="text-primary">Escudo Nacional</a>
+          </li>
+          <li class="list-group-item bg-light">
+            <a href="HimnoN.html" id="Indices_Name" class="text-primary">Himno Nacional</a>
+          </li>
+        </ul>
+      </div>
     </div>
+
+    <!-- Bienvenido a Infopedia -->
+    <div class="posicionar d-flex align-items-center">
+      <p class="mr-3" style="font-family: 'Courier New', Courier, monospace;">Bienvenido a Infopedia</p>
+      <img src="img/Logo_infopedia-remove.png" alt="Logo Infopedia" class="Imagen">
+    </div>
+</div>
+<!--Espaciado para principiantes-->
+<br>
+<br>
+<br>
+<br>
+
+<div style="background-color: cornflowerblue; display: flex; flex-direction: row; align-items: center;">
+  <div style="width: 40%; height: 300px; flex-wrap: wrap;">
+    <h3 class="animate__animated animate__wobble">La Bandera de Republica Dominicana</h3>
+    <br>
+    <p style="flex-basis: 100%;">La Bandera de la República Dominicana es la bandera que representa al país y que, junto con el Escudo y el Himno, tiene la categoría de símbolo patrio.
+      De acuerdo con lo descrito dentro del artículo 1233 y 1234 de la Constitución, tiene una cruz en el centro que extiende hacia las extremidades y divide la bandera en cuatro rectángulos: los de arriba son azul ultramar (en el lado del asta) y rojo bermellón; y los de abajo son rojo bermellón (en el lado del asta) y azul ultramar. En el centro de la cruz existe el escudo de armas de la República Dominicana.
+
+      <h4>Descripción de la bandera de la República Dominicana:</h4>
+
+      La Bandera Nacional se compone de los colores azul ultramar, rojo bermellón y blanco, en cuarteles alternados, colocados de tal modo que el azul quede hacia la parte superior del asta, separados por una cruz blanca del ancho de la mitad de la altura de un cuartel y que lleve en el centro el <a href="#">Escudo Nacional</a>.
+
+      <ul>Colores y simbolismo</ul>
+      <ul>A los colores de la bandera se le atribuyen los siguientes conceptos:</ul>
+
+      <li><strong>Bermellón:</strong> Representa la sangre derramada por los patriotas en las batallas para conseguir la independencia de la Nación.</li>
+      <li><strong>Azul ultramar:</strong> Representa el cielo que cubre la Patria, que Dios protege la nación dominicana y los ideales de progreso de los dominicanos.</li>
+      <li><strong>Blanco:</strong> Representa la paz y unión entre todos los dominicanos.</li>
+    </p>
+    <button style="margin-top: 10px;">Más información</button>
   </div>
 </div>
 
-<div>
-  <p class="posicionar">Bienvenido a Infopedia</p>
-</div>
+<img src="img/bandera-de-republica-dominicana.jpg" alt="Bandera" class="img_Bandera" style="width: 30%; margin-left: 50em;">
+
 
 <script src="script/script.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
