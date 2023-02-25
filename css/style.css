@@ -39,11 +39,12 @@
 }
 
 .bg-primary {
+    position: center;
     background-color: #4b4be4 !important;
 }
 
 .Fondo{
-    background-color: rgb(182, 181, 180);
+    background-color: rgb(255, 255, 255);
     border-radius: 3px;
 }
 
